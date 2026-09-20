@@ -1,7 +1,7 @@
 import { createServer } from 'http';
 
 const PORT = process.env.PORT || 3000;
-const VERSION = '1.0.0';
+const VERSION = '1.0.1';
 
 const server = createServer((req, res) => {
   if (req.url === '/health') {
